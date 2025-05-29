@@ -1,0 +1,42 @@
+<WELayout>
+  <children>
+    <self itemName="BG">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-0.340000063" y="0" z="0.05000003" />
+        <offsetRotation x="270" y="180" z="0" />
+        <scale x="2" y="6" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <whiteMesh />
+      <decalStyle decalFlags="7" affectSmoothness="true" affectAO="false" affectEmission="false" drawOrder="1">
+        <color>4F4F4FFF</color>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+      </decalStyle>
+    </self>
+    <children>
+      <self itemName="NewDecal">
+        <transform alignment="Left" arrayAxisOrder="XYZ">
+          <offsetPosition x="-0.53" y="-0.02" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="7" y="7" z="1" />
+          <mustDraw>0</mustDraw>
+          <instanceCount>-1</instanceCount>
+          <arrayInstances x="1" y="1" z="1" />
+          <arraySpacing x="0" y="0" z="0" />
+        </transform>
+        <imageMesh atlas="CS2-British-RoadSigns_UK_RoadDecals">
+          <image>RoundaboutStraightLeft</image>
+        </imageMesh>
+        <decalStyle decalFlags="7" affectSmoothness="false" affectAO="false" affectEmission="false" drawOrder="2">
+          <color>FFFFFF59</color>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+        </decalStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>
